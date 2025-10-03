@@ -13,6 +13,6 @@ The `render.yaml` file defines the following resources:
 Each of the above uses a free instance type by default.
 
 
-> Revisions
-> Added SG Region -> Success
-> Added SQL Version -> Success
+# Revisions
+Added SG Region -> Success
+Added SQL Version -> Success
