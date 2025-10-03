@@ -37,19 +37,19 @@ services:
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
         fromDatabase:
-          name: n8n-db
+          name: kami-n8n-db
           property: database
       - key: DB_POSTGRESDB_HOST
         fromDatabase:
-          name: n8n-db
+          name: kami-n8n-db
           property: host
       - key: DB_POSTGRESDB_PASSWORD
         fromDatabase:
-          name: n8n-db
+          name: kami-n8n-db
           property: password
       - key: DB_POSTGRESDB_USER
         fromDatabase:
-          name: n8n-db
+          name: kami-n8n-db
           property: user
 
 databases:
