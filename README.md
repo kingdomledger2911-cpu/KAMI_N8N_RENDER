@@ -14,6 +14,5 @@ Each of the above uses a free instance type by default.
 
 
 # Revisions
-Added SG Region -> Success
-
-Added SQL Version -> Success
+- Added SG Region -> Success
+- Added SQL Version -> Success
