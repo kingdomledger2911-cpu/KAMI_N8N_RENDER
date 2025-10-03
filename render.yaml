@@ -39,19 +39,19 @@ services:
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
         fromDatabase:
-          name: kami-n8n-db
+          name: KAMI N8N DB
           property: database
       - key: DB_POSTGRESDB_HOST
         fromDatabase:
-          name: kami-n8n-db
+          name: KAMI N8N DB
           property: host
       - key: DB_POSTGRESDB_PASSWORD
         fromDatabase:
-          name: kami-n8n-db
+          name: KAMI N8N DB
           property: password
       - key: DB_POSTGRESDB_USER
         fromDatabase:
-          name: kami-n8n-db
+          name: KAMI N8N DB
           property: user
 
       # Add Webhook
@@ -59,7 +59,7 @@ services:
         value: https://kami-n8n-render.onrender.com/
 
 databases:
-  - name: kami-n8n-db
+  - name: KAMI N8N DB
     plan: free
 
     # Added Regions
