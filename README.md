@@ -11,3 +11,8 @@ The `render.yaml` file defines the following resources:
 - A Render Postgres database that stores n8n data
 
 Each of the above uses a free instance type by default.
+
+
+> Revisions
+> Added SG Region -> Success
+> Added SQL Version -> Success
