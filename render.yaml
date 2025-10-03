@@ -18,7 +18,7 @@ services:
       # Pulls the n8n image tagged as latest from Docker Hub
       url: docker.io/n8nio/n8n:latest
 
-    # Regions 
+    # ADDED Regions
     region: singapore
     # All environment variables defined below are required!
     #
@@ -57,7 +57,13 @@ services:
 databases:
   - name: kami-n8n-db
     plan: free
+
+    # ADDED Regions
     region: singapore
+
+    # ADDED THIS LINE to specify PostgreSQL version 17
+    postgresMajorVersion: 17
+
     # The free instance type is limited to 1 GB of disk
     # space.
     #
