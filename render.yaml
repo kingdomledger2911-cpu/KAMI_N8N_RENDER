@@ -12,8 +12,8 @@ services:
     plan: free
     # This is the runtime for services that pull a prebuilt Docker image
     runtime: image
-    # You can give the service any name
-    name: KAMI N8N RENDER TEST
+    # You can give the service any name (URL Link is generated from here)
+    name: KAMI N8N RENDER
     image:
       # Pulls the n8n image tagged as latest from Docker Hub
       url: docker.io/n8nio/n8n:latest
@@ -54,9 +54,9 @@ services:
           name: KAMI N8N DB
           property: user
 
-      # Add Webhook
+      # Add Webhook (To match URL generated)
       - key: WEBHOOK_URL
-        value: https://kami-n8n-render2.onrender.com/
+        value: https://kami-n8n-render.onrender.com/
 
 databases:
   - name: KAMI N8N DB
