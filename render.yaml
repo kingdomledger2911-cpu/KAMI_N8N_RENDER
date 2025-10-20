@@ -56,7 +56,7 @@ services:
 
       # Add Webhook
       - key: WEBHOOK_URL
-        value: https://kami-n8n-render.onrender.com/
+        value: https://kami-n8n-render2.onrender.com/
 
 databases:
   - name: KAMI N8N DB
