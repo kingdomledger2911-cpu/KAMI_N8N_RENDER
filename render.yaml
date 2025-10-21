@@ -13,7 +13,7 @@ services:
     # This is the runtime for services that pull a prebuilt Docker image
     runtime: image
     # You can give the service any name (URL Link is generated from here)
-    name: KAMI N8N
+    name: KAMI UNLIMITED N8N
     image:
       # Pulls the n8n image tagged as latest from Docker Hub
       url: docker.io/n8nio/n8n:latest
@@ -56,7 +56,7 @@ services:
 
       # Add Webhook (To match URL generated)
       - key: WEBHOOK_URL
-        value: https://kami-n8n.onrender.com/
+        value: https://kami-unlimited-n8n.onrender.com/
 
 databases:
   - name: KAMI DB
